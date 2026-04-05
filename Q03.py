@@ -11,3 +11,6 @@
 #   5 x 10 = 50
 
 # --- YOUR CODE HERE ---
+number = int(input("Enter a number: "))
+for i in range (1,11):
+    print(number, "x", i, "=", number*i)
