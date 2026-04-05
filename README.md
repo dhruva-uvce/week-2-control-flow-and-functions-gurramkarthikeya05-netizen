@@ -1,10 +1,43 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jxnFfUOZ)
 # Control Flow & Functions — Week 2 Assignment
 **Due:** Next weekly class
 
 The files `Q01.py`, `Q02.py`, … `Q10.py` are already created in this repository. Open each file, write your solution where it says `# --- YOUR CODE HERE ---`, and commit your changes.
 
 > **Auto-grading is enabled.** Every time you push your code, GitHub will automatically run tests and show you how many you passed. You can push as many times as you want before the deadline.
+
+## Running Tests Locally
+
+To run all tests on your computer, first install `pytest`:
+
+```powershell
+python -m pip install pytest
+```
+
+Then run all tests from this assignment folder:
+
+```powershell
+python -m pytest tests -v
+```
+
+To run tests for only one question:
+
+```powershell
+python -m pytest tests/test_q01.py -v
+```
+
+This will show which tests passed and which tests failed, so you can fix your code before submitting.
+
+## How to Submit
+
+After you finish your work, run these commands from the assignment folder:
+
+```powershell
+git add .
+git commit -m "Completed Week 2 assignment"
+git push
+```
+
+This will upload your latest code to GitHub and trigger auto-grading.
 
 ---
 
